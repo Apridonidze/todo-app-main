@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing:2px;
+    color: white;
+    background-color: #181824;
+    overflow-y: hidden;
+    text-decoration-color:gray;
+}
+.background {
+    position:relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 220px;
+    background-image: url(images/bg-mobile-dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: relative;
+    bottom: 180px;
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+.container-header h1{
+    font-size: 82px;
+    letter-spacing: 22px;
+    margin: 0;
+    padding: 20px 0px;
+}
+.input {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    height: 60px;
+    background-color:#25273c;
+    color: white;
+    border-radius: 5px;
+}
+.input input {
+    width: 100%;
+    height: auto;
+    border: none;
+    height: 40px;
+    font-size: 24px;
+    outline: none;
+    background-color: #25273c;
+    color: white;
+    border-radius: 5px;
+}
+.input #circle {
+    width: 25px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+.mainBody {
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #25273c;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    box-shadow: -10px 20px 80px 0px black;
+}
+.output {
+    display: block;
+    align-items: center;
+    max-height: 400px;
+    overflow-y: scroll;
+    scrollbar-color: #181824 #25273c;
+    scrollbar-width:thin;
+    width: 100%;
+    padding: 10px;
+}
+.output div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid #3e4059;
+}
+.output span {
+    width: 25px;
+    height: 25px;
+    background:linear-gradient(#68baf5,#781b72);
+    border-radius: 100%;
+    padding:5px ;
+    cursor: pointer;
+}
+.output h1 {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    height: auto;
+    text-decoration-color: gray;
+}
+.output h3 {
+    content:url(images/icon-cross.svg);
+    cursor: pointer;
+}
+.new{
+    content: url(images/icon-check.svg);
+}
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    color: #3e4059;
+}
